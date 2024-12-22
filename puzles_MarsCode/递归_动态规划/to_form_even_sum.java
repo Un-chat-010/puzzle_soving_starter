@@ -7,7 +7,7 @@ package 递归_动态规划;
  * 
  */
 
-public class to_form_even_sum { 
+public class To_Form_Even_Sum { 
 
     //方法一:暴力解法
     // public static int solution1(int[] numbers) {
