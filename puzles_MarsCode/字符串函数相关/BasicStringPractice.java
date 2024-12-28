@@ -73,7 +73,7 @@ public class BasicStringPractice {
         System.out.println("=== 字符和ASCII码转换 ===");
         charAsciiDemo('a');
         
-        // 测试大���写转换
+        // 测试大小写转换
         System.out.println("\n=== 大小写转换 ===");
         caseConversionDemo('A');
         
