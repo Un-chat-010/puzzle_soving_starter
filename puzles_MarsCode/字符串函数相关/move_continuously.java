@@ -44,12 +44,10 @@ public class move_continuously {
         Arrays.sort(validSort);
 
         // 计算最大移动位置（大-小的差）
-        max = stones[n] - validSort[validSort.length - 1];
-        if (validSort[0] - stones[0] > max) {
-            max = validSort[0] - stones[0];
+        if (stones[0] - validSort[0] > max) {
+            max = stones[0] - validSort[0];
         }
-        //只保留中间的位置（除去大本身）
-        times = max -1;
+        times = max;
 
         return times;
     }
